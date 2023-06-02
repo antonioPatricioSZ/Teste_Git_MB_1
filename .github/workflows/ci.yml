@@ -3,7 +3,7 @@ name: node workflow
 on: [push]
 
 jobs: 
-  check-application: 
+  install: 
     runs-on: ubuntu:latest
 
     steps: 
